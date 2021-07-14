@@ -42,7 +42,7 @@ _**Important note: The code can now handle only one target, so T\_n and T\_n\_d 
 ## Running the algorithm on a demo dataset
 
 The chosen demo dataset is Boston Housing, which consists of 13 features. AHFS can be executed by running the first section of the script in ahfs_test.m.
-The time evolution of the model error can be plotted by running the second section. The result can be seen on the figure below.
+The time evolution of the model error can be plotted by running the second section. The result can be seen in the figure below.
 
 Runtime approximately equals 40 seconds using Intel Core i7-9750H CPU @2.60GHz (running the algorithm is a CPU intensive process).
 
