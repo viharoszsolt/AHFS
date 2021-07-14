@@ -1,15 +1,18 @@
 # AHFS
- Adaptive Hybrid Feature Selection (AHFS)
+ **Adaptive Hybrid Feature Selection (AHFS)**
 
 ## Short description
-This idrectory contains the code for the Adaptive Hybrid Feature Selection (AHFS) algorithm. 
-
-The related scientific publication can be found here, it is an open access manuscript:
+This directory contains the MATLAB code for the Adaptive Hybrid Feature Selection (AHFS) algorithm. The related scientific publication, describing the algoritm, has been published in the Pattern Recognition journal (https://www.journals.elsevier.com/pattern-recognition) and it can be found through the link below, it is an open access manuscript accessible by anyone:
 https://www.sciencedirect.com/science/article/pii/S0031320321001199
 
-????
+The AHFS solution deals with the problem of integrating the most suitable feature selection methods for a given problem in order to achieve the best feature order. A new, adaptive and hybrid feature selection approach was realised, which combines and utilizes multiple individual methods in order to achieve a more generalized solution, called Adaptive Hybrid Feature Selection (AHFS):
+**A** - Adaptivity of the proposed algorithm is realized in such a way that at an individual step of the feature selection algorithm it iterates not only in the space of the variables but in the space of available features selection techniques, too. This is the core idea of the solution.
+**H** - Hybrid solution is realised which combines the given, available (supervised) feature selection techniques that have their own specific, but fixed feature evaluation measures/metrics.
+**F** - Feature
+**S** - Selection
+The published code contains the MATLAB implementation of the algorithm described in the linked publication. The code exploits the parallel computing capabilities of the running machine, however, still it is relatively time consuming (see the paper about these measurements).
 
-This paper deals with the problem of integrating the most suitable feature selection methods for a given problem in order to achieve the best feature order. A new, adaptive and hybrid feature selection approach is proposed, which combines and utilizes multiple individual methods in order to achieve a more generalized solution. Various state-of-the-art feature selection methods are presented in detail with examples of their applications and an exhaustive evaluation is conducted to measure and compare the their performance with the proposed approach. Results prove that while the individual feature selection methods may perform with high variety on the test cases, the combined algorithm steadily provides noticeably better solution.
+In the paper, various state-of-the-art feature selection methods are presented in detail with examples of their applications. An exhaustive evaluation was conducted to measure and compare their performance with the proposed AHFS approach. Results prove that while the individual feature selection methods may perform with high variety on the test cases, the combined AHFS algorithm steadily provides noticeably better solution.
 
 ## Guidelines for using the code
 
